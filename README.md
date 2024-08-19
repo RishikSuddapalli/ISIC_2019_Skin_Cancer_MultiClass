@@ -1,34 +1,21 @@
-Project Overview
-This project is a basic implementation of a server with clients, where clients log in to the server using their credentials and are allowed to transfer files from their directories. 
-The project was developed using the C programming language with socket connections, following the workflow diagram provided.
+Project Description:
 
-![Screenshot 2024-08-17 102714](https://github.com/user-attachments/assets/def58487-e932-485d-a6fa-1459c26745b4)
-Server Functionality
-Here Server program acts as console with the access to clients directory can perform followiing functions: File transfer from
-From C1
-From C2
-From C3
-C1 From C2
-C1 From C3
-C2 From C1
-C2 From C3
-C3 From C1
-C3 From C2
-From the above console we can see that the this project is capable of txt file transfer from server-client and client-client transfer.
-the Workflow of server-client and client-client file transfer are as follows:
-File Transfer Workflows
-Server-Client File Transfer
+This project involves developing a deep learning-based Image Classification System to accurately classify skin cancer lesions and conditions using convolutional neural networks (CNN) and pre-trained models like EfficientNetB1,ResNet152 ,VGG19 & DenseNet121. It aims to improve dermatological diagnosis by enhancing diagnostic accuracy, patient outcomes, and early detection. The project includes establishing an image classification pipeline, optimizing model performance, and providing detailed classification reports.
 
-![Screenshot 2024-08-17 103705](https://github.com/user-attachments/assets/789f190f-8131-4e07-afb6-0afde5c9d6c8)
+How to aceess and use FLask app:
 
+1.Download and extract zip file.
 
-Client-Client File Transfer
+2.Install requirement.txt file in local enviorment.
 
-![Screenshot 2024-08-17 103705](https://github.com/user-attachments/assets/d22a3f42-8456-4272-a51c-d503bfd31d97)
+3.Run the flask app usinf "python app.py".
 
-![Screenshot 2024-08-17 103724](https://github.com/user-attachments/assets/be38b753-051d-4c27-b2ef-4ea3a91b5c30)
+4.Open "http://127.0.0.1:5000" in your browser.
 
+![Screenshot 2024-08-19 201430](https://github.com/user-attachments/assets/31677f51-72f6-42bf-bc4f-2f7e9162892b)
 
-File Storage
-In case of client to client file transfer the transferred files arestored in server directory, as “server_copy.txt”, which can beseen using the “ls” command and can be read and editedusing “gedit server_copy.txt” command.
-When the same thing happens in client-to-client file transfer,but file is saved as “clientfileCopier.txt“.
+5. Upload any  Skin lesion image and click on classify button.
+
+6.The image will be classsified into any of the 8 classes ['Actinic keratosis', 'Basal cell carcinoma', 'Benign keratosis', 'Dermatofibroma', 'Melanocytic nevus', 'Melanoma', 'Squamous cell carcinoma', 'Vascular lesion']
+
+The Flask uses ENB1_8CLass30.h5 model weight to classify the images, the model weights were trained in ISIC_Skin_Classifiaction.ipymb file.

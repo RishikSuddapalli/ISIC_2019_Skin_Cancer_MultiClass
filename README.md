@@ -4,7 +4,7 @@ This project involves developing a deep learning-based Image Classification Syst
 
 How to aceess and use FLask app:
 
-1.Download and extract zip file.
+1.Clone this repositry.
 
 2.Install requirement.txt file in local enviorment.
 

@@ -18,4 +18,4 @@ How to aceess and use FLask app:
 
 6.The image will be classsified into any of the 8 classes ['Actinic keratosis', 'Basal cell carcinoma', 'Benign keratosis', 'Dermatofibroma', 'Melanocytic nevus', 'Melanoma', 'Squamous cell carcinoma', 'Vascular lesion']
 
-The Flask uses ENB1_8CLass30.h5 model weight to classify the images, the model weights were trained in ISIC_Skin_Classifiaction.ipymb file.
+The Flask uses ENB1_8CLass30.h5 model weight to classify the images, the model weights were trained in ISIC_Skin_Classification.ipymb file.
